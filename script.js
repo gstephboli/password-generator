@@ -1,8 +1,14 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+
 // Write password to the #password input
 function writePassword() {
+  prompt("Choose between 8 and 128 characters");
+  confirm("Do you want uppercase letters?");
+  confirm("Do you want lowercase letters?");
+  confirm("Do you want numbers?");
+  confirm("Do you want special characters?");
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -20,5 +26,8 @@ function generatePassword() {
     }
     return retVal;
 }
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
