@@ -12,7 +12,13 @@ function writePassword() {
 
 
 function generatePassword() {
-  return "This will be replaced by my generated password.";
+    var length = 8,
+        charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+        retVal = "";
+    for (var i = 0, n = charset.length; i < length; ++i) {
+        retVal += charset.charAt(Math.floor(Math.random() * n));
+    }
+    return retVal;
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
