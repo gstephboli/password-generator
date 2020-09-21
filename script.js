@@ -1,14 +1,19 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
+// Set variables for each item than can be included in the passwork
+var lowerCase;
+var upperCase;
+var numeric;
+var specChar;
+var passwordLength = >= 8 || <= 128;
 
 // Write password to the #password input
 function writePassword() {
-  prompt("Choose between 8 and 128 characters");
-  confirm("Do you want uppercase letters?");
-  confirm("Do you want lowercase letters?");
-  confirm("Do you want numbers?");
-  confirm("Do you want special characters?");
+  prompt("Choose between 8 and 128 characters.");
+  lowerCase = confirm("Click OK to use lowercase letters.");
+  upperCase = confirm("Click OK to use uppercase letters.");
+  numeric = confirm("Click OK to use numbers.");
+  specChar = confirm("Click OK to use special characters.");
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
