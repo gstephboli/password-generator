@@ -25,7 +25,7 @@ function generatePassword() {
   // will check to see if at least one character type has been chosen
   var characterChoice = false;
   var finalPasswordString = "";
-
+// This while loop will keep running until the user chooses a number of characters that are within the parameters set
   while (
     passwordLength < 8 ||
     passwordLength > 128 ||
@@ -52,8 +52,8 @@ function generatePassword() {
   }
   // console.log(+passwordLength);
   while (characterChoice === false) {
-    lowerCase = confirm("Click OK to use lowercase letters.");
 
+    lowerCase = confirm("Click OK to use lowercase letters.");
     if (lowerCase) {
       passwordCharSet += lowerCaseCharString;
     }
@@ -93,7 +93,7 @@ function generatePassword() {
     // console.log(passwordCharIndex);
     finalPasswordString += passwordCharSet[passwordCharIndex];
   }
-
+// Returns the password string to the box with random characters based off the users input.
   return finalPasswordString;
 }
 
