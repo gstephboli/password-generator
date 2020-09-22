@@ -34,8 +34,7 @@ function generatePassword() {
   ) {
     passwordLength = prompt("Choose between 8 and 128 characters.");
     if (passwordLength === null) {
-      // allow to go to the next question
-      break;
+      return "Cancelled Generated Password";
     } else {
       if (passwordLength < 8) {
         alert("Password length must be longer than 8 characters");
@@ -51,10 +50,7 @@ function generatePassword() {
       }
     }
   }
-  if (passwordLength === null) {
-    return "Cancelled Generated Password";
-  }
-  console.log(+passwordLength);
+  // console.log(+passwordLength);
   while (characterChoice === false) {
     lowerCase = confirm("Click OK to use lowercase letters.");
 
@@ -84,7 +80,7 @@ function generatePassword() {
       specialChar === true
     ) {
       characterChoice = true;
-      console.log("You will get a password");
+      // console.log("You will get a password");
     } else {
       alert("Confirm at least one character type to include in password.");
     }
@@ -94,7 +90,7 @@ function generatePassword() {
 
   for (i = 0; i < passwordLength; i++) {
     passwordCharIndex = Math.floor(Math.random() * numCharacterOptions);
-    console.log(passwordCharIndex);
+    // console.log(passwordCharIndex);
     finalPasswordString += passwordCharSet[passwordCharIndex];
   }
 
