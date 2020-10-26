@@ -17,12 +17,6 @@ Open HTML then open webpage to default browser.
 
 Happy editing!
 
-## Contact
-
-####  **Stephany Bolivar** 
-*  **Github:** [@gstephboli](https://github.com/gstephboli)
-*  **Email:** [g.stephanybolivar@gmail.com](g.stephanybolivar@gmail.com)
-
 ## Usage
 
 This [website] (https://gstephboli.github.io/password-generator/) allows for a user to be able to generate a password. They are able to choose characters as low as 8 and no higher than 128. Then they are able to choose the parameters of the kind of password they want choosing from upper and lower case, special characters and numbers. 
@@ -49,6 +43,12 @@ Discovering the use of NaN [MozillaWebDocs] (https://developer.mozilla.org/en-US
 Getting started on how to name certain variables and if/else statements [StackOverFlow] (https://stackoverflow.com/questions/24857893/password-requirements-program) & [StackOverFlow] (https://stackoverflow.com/questions/1497481/javascript-password-generator).
 
 Understanding the use of While Loops [w3schools] (https://www.w3schools.com/js/js_loop_while.asp) .
+
+## Contact
+
+####  **Stephany Bolivar** 
+*  **Github:** [@gstephboli](https://github.com/gstephboli)
+*  **Email:** [g.stephanybolivar@gmail.com](g.stephanybolivar@gmail.com)
 
 ## License
 
