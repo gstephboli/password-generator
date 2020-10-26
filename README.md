@@ -17,6 +17,12 @@ Open HTML then open webpage to default browser.
 
 Happy editing!
 
+## Contact
+
+####  **Stephany Bolivar** 
+*  **Github:** [@gstephboli](https://github.com/gstephboli)
+*  **Email:** [g.stephanybolivar@gmail.com](g.stephanybolivar@gmail.com)
+
 ## Usage
 
 This [website] (https://gstephboli.github.io/password-generator/) allows for a user to be able to generate a password. They are able to choose characters as low as 8 and no higher than 128. Then they are able to choose the parameters of the kind of password they want choosing from upper and lower case, special characters and numbers. 
